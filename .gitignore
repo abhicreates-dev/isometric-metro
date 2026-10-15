@@ -1,0 +1,6 @@
+# scratch
+build.mjs.bak
+shots/
+frames/
+node_modules/
+.DS_Store
