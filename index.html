@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Metro on the viaduct</title>
+<style>
+  :root{color-scheme:light dark}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f2f2ef;color:#57575a;
+       font:15px/1.7 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{width:min(560px,100% - 48px);padding:40px 0}
+  h1{font:600 19px/1.4 ui-sans-serif,system-ui;color:#18181a;margin:0 0 6px;letter-spacing:-.01em}
+  p{margin:0 0 26px}
+  a{display:block;padding:15px 18px;margin-bottom:10px;border:1px solid #d9d9d4;border-radius:2px;
+    color:#18181a;text-decoration:none;background:#fbfbfa}
+  a:hover{border-color:#8a8a8f}
+  small{color:#8c8c90;display:block;font-size:12.5px;margin-top:2px;letter-spacing:.02em}
+  code{font:12.5px ui-monospace,"SF Mono",Menlo,monospace;color:#57575a}
+  @media (prefers-color-scheme:dark){
+    body{background:#0b0b0b;color:#a3a3a3}h1{color:#e6e6e6}
+    a{background:#131313;border-color:#2a2a2a;color:#e6e6e6}a:hover{border-color:#6a6a6a}
+    small,code{color:#6e6e6e}}
+</style></head><body><main>
+<h1>Metro on the viaduct</h1>
+<p>An interactive isometric figure. Click any of the 28 glazed openings and the train brakes to a
+stand while the camera rides it in; scroll to zoom, drag to pan, arrow keys step from window to
+window, Esc lets it go.</p>
+<a href="metro-bridge-light.html">Light<small>the shipping theme</small></a>
+<a href="metro-bridge.html">Dark<small>the same figure on a dark plate</small></a>
+<p><code>node build.mjs</code> rebuilds either page (<code>--light</code> for light).</p>
+</main></body></html>
